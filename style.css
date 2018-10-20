@@ -1,6 +1,5 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: purple;
     background-color: #F8E0F7;
     margin-top: 2em;
 }
@@ -17,7 +16,7 @@ body {
     margin: 0 2em;
     padding: 0 0.5em;
     display: inline-block;
-    float: right;
+    float: left;
     border-bottom: solid #7f8c8d 2px;
     position: relative;
     transition: 0.5s all;
@@ -41,5 +40,12 @@ body {
      height: 100%;
      margin: 0;
      text-decoration: none;
+}
 
+h1 {
+     color: purple;
+}
+
+a {
+    color: #7f8c8d
 }
